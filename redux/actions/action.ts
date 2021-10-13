@@ -18,7 +18,7 @@ const setLots = (inp: string, navigation: any) => (dispatch: Dispatch) => {
       });
     }
     navigation.pop();
-    ToastAndroid.show(`${inp} Lot created`, ToastAndroid.SHORT);
+    //ToastAndroid.show(`${inp} Lot created`, ToastAndroid.SHORT);
   }
 };
 
@@ -40,7 +40,7 @@ const setRegistration =
         type: REGISTER,
         data: lot,
       });
-      ToastAndroid.show(`'${inp}' Rigistered`, ToastAndroid.SHORT);
+      //ToastAndroid.show(`'${inp}' Rigistered`, ToastAndroid.SHORT);
       navigation.pop();
     }
   };
